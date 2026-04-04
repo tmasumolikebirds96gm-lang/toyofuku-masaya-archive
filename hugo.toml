@@ -78,4 +78,4 @@ relativeURLs = false
     weight = 50
 
 [outputs]
-  home = ["HTML", "RSS", "JSON"]    
+  home = ["HTML", "RSS", "JSON", "Sitemap"]    

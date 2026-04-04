@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ if .IsHome }}{{ .Site.Title }} | 豊福 雅哉{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
   
+  <meta name="google-site-verification" content="{{ .Site.Params.google_verify }}" />
+  
   {{ if .Description }}
     <meta name="description" content="{{ .Description }}">
   {{ else if .IsPage }}
