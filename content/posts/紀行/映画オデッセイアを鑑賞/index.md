@@ -2,8 +2,8 @@
 title: "映画オデュッセイアを鑑賞"
 date: 2026-09-20
 description: "壮大な叙事詩、地中海世界、オデュセイアの物語に触れる"
-image: "photo1.webp"
-categories: ["資料",]
+image: ""
+categories: ["紀行",]
 tags: ["映画","歴史","物語"]
 toc: true
 ---
