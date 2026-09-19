@@ -103,7 +103,10 @@
 
   .toc-body { padding: 0 18px 18px; }
 
-  .post-toc nav ul { list-style: none !important; padding-left: 0 !important; margin: 0 !important; }
+  /* 目次の自動番号・デフォルト箇条書きを無効化 */
+  .post-toc nav ol, .post-toc nav ul { list-style: none !important; padding-left: 0 !important; margin: 0 !important; }
+  /* サブ見出し（2階層目以降）に適度なインデントを付与 */
+  .post-toc nav ol ol, .post-toc nav ul ul { padding-left: 1.2em !important; }
   .post-toc nav li { margin-top: 8px !important; line-height: 1.5; }
   .post-toc a { text-decoration: none; color: #555; }
   .post-toc a:hover { color: #000; text-decoration: underline; }
